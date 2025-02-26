@@ -2,8 +2,9 @@ from US_VISA.logger import logging
 from US_VISA.exception import USvisaException
 import sys
 
+
 # logging.info("Welcome to Our Major-Project")
-logging.info("Checking the exception handling for project")
+logging.info("Zero Handling exception")
 
 
 try:
