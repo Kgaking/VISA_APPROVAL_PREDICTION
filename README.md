@@ -21,3 +21,11 @@ This can be used to Recommend a suitable profile for the applicants for whom the
 2) Data Collection.
 The Dataset is part of Office of Foreign Labor Certification (OFLC)
 The data consists of 25480 Rows and 12 Columns
+
+
+
+# Constant
+# config
+# artifacts
+# Components
+# pipeline
