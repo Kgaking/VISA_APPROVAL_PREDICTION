@@ -25,8 +25,9 @@ SCHEMA_FILE_PATH = os.path.join("config","schema.yaml")
 """
 AWS credentials
 """
-AWS_ACCESS_KEY_ID_ENV_KEY=""
-AWS_SECRET_ACCESS_KEY_ENV_KEY=""
+
+AWS_ACCESS_KEY_ID_ENV_KEY="AWS_ACCESS_KEY_ID"
+AWS_SECRET_ACCESS_KEY_ENV_KEY="AWS_SECRET_ACCESS_KEY_ID"
 REGION_NAME="us-east-1"
 
 """
@@ -65,7 +66,7 @@ MODEL_TRAINER_MODEL_CONFIG_FILE_PATH: str =os.path.join("config","model.yaml")
     MODEL EVALUATION related constant
 """
 MODEL_EVALUATION_CHANGED_THRESHOLD_SCORE:float=0.2
-MODEL_BUCKET_NAME="us_visa-model2025"
+MODEL_BUCKET_NAME="us-visa-model2025"
 MODEL_PUSHER_S3_KEY="model-registry"
 
 
