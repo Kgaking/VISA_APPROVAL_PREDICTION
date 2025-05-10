@@ -29,6 +29,7 @@ app.add_middleware(
     allow_headers=["*"],
 )
 
+
 class DataForm:
     def __init__(self, request: Request):
         self.request: Request = request
